@@ -261,6 +261,12 @@ namespace LuaPlayer
         return 1;
     }
 
+    int QueueWardenPayload(lua_State* L, Player* player)
+    {
+        player->GetSession()->QueueWardenPayload();
+        return 0;
+    }
+    
     /**
      * Returns `true` if the [Player] has permission to uninvite others from the current group, `false` otherwise.
      *
