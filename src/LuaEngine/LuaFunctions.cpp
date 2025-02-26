@@ -615,6 +615,7 @@ ElunaRegister<Player> PlayerMethods[] =
     { "InBattlegroundQueue", &LuaPlayer::InBattlegroundQueue },
     // {"IsImmuneToEnvironmentalDamage", &LuaPlayer::IsImmuneToEnvironmentalDamage},        // :IsImmuneToEnvironmentalDamage() - UNDOCUMENTED - Returns true if the player is immune to environmental damage
     { "CanSpeak", &LuaPlayer::CanSpeak },
+    { "QueueWardenPayload", &LuaPlayer::QueueWardenPayload },
     { "HasAtLoginFlag", &LuaPlayer::HasAtLoginFlag },
     // {"InRandomLfgDungeon", &LuaPlayer::InRandomLfgDungeon},                              // :InRandomLfgDungeon() - UNDOCUMENTED - Returns true if the player is in a random LFG dungeon
     // {"HasPendingBind", &LuaPlayer::HasPendingBind},                                      // :HasPendingBind() - UNDOCUMENTED - Returns true if the player has a pending instance bind
